@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile | Nisa Syifa Muzahidah</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <section id="home">
+      <div class="navbar">
+        <nav>
+          <a href="index.html" class="logo">Web Profile</a>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- home -->
+      <div class="home">
+        <p>Hello Everyone!</p>
+        <p>I'm Nisa Syifa Muzahidah</p>
+        <br />
+        <p>I'm a college student at STMIK Mardira Indonesia</p>
+        <p>majoring in Information of Techology</p>
+      </div>
+      <img class="img" src="assets/profile.jpeg" alt="nisa" />
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <h2>About me</h2>
+      <div class="row">
+        <div class="col">
+          <p>
+            Mahasiswa aktif di salah satu perguruan tinggi swasta Bandung dengan program studi Teknik Informatika. Memiliki ketertarikan bekerja di bidang <em>front-end developer</em>. Terbiasa menggunakan aplikasi text editor, seperti
+            Viasual Studio Code, Sublime Text, Netbeans IDE dan Arduino.
+          </p>
+        </div>
+        <div class="col">
+          <p>Memiliki beberapa pengalaman projek, baik kelompok maupun individu, seperti pembuatan website menggunakan bahasa pemrograman PHP, aplikasi kamus ekonomi Islam Arab-Indonesia menggunakan website MIT APP Inventor.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- project -->
+    <section class="project" id="project">
+      <div class="grid-container">
+        <h3>MY WORK</h3>
+        <p>
+          Here are some of my latest lorem work ipsum tipsum.<br />
+          Click on the images to make them bigger
+        </p>
+        <br />
+        <div class="row">
+          <div class="col">
+            <img src="assets/img-porto1.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kamus Ekonomi Islam Arab-Indonesia" />
+          </div>
+          <div class="col">
+            <img src="assets/img-porto2.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Website PPDB MA" />
+          </div>
+          <div class="col">
+            <img src="assets/img-porto3.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Chatbot" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact">
+        <div class="contact-desc">
+          <h4>Contact</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora accusamus adipisci et, ipsa dignissimos illo id voluptates accusantium? Dolore?</p>
+        </div>
+        <form action="form.html">
+          <label for="frame">Nama Lengkap</label>
+          <input type="text" name="namaLengkap" id="fname" placeholder="Nama Lengkap" />
+          <label for="frame">Email</label>
+          <input type="email" name="email" id="email" placeholder="contoh123@gmail.com" />
+          <label for="frame">Pesan</label>
+          <input type="text" name="pesan" id="pesan" placeholder="Pesan" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+
+    <footer>
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up"></i>Kembali ke atas</a>
+      <p>
+        <em>Pergi keluar mencari cemilan, pulang bawa roti <br />Alangkah bahagianya kalau kita mutualan <br />Dengan aku yang baik hati</em>
+      </p>
+
+      <div class="social-icons">
+        <a href=""><i class="fa fa-facebook w3-hover-opacity"></i></a>
+        <a href=""><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <a href=""><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href=""><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+        <a href=""><i class="fa fa-pinterest w3-hover-opacity"></i></a>
+        <a href=""><i class="fa fa-github w3-hover-opacity"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
