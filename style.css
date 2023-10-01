@@ -9,13 +9,15 @@ ul {
 }
 a {
   text-decoration: none;
+
+  /* navbar */
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background-color: #6b7aa1;
+  background-color: #11324d;
   box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
   padding: 0px 5%;
 }
@@ -31,7 +33,7 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #c1cfc0;
   border-radius: 1px;
-  color: #6b7aa1;
+  color: #11324d;
 }
 .logo {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -46,6 +48,8 @@ nav ul li a:hover {
   position: relative;
   background-color: #e7e0c9;
 }
+
+/* Home */
 .home p {
   line-height: 0px;
   margin: 55px 0px 25px;
@@ -53,32 +57,35 @@ nav ul li a:hover {
 .home p:nth-child(1) {
   font-family: Cooper black;
   font-style: italic;
-  font-size: 20px;
+  font-size: 25px;
 }
 .home p:nth-child(2) {
-  font-family: poppins;
-  font-size: 30px;
+  font-family: Cooper black;
+  font-size: 38px;
   color: #11324d;
   letter-spacing: 1px;
 }
 .home p:nth-child(3) {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 30px;
   color: #6b7aa1;
   letter-spacing: none;
+  font-style: italic;
 }
 .home p:nth-child(4) {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
   color: #6b7aa1;
-  letter-spacing: none;
+  letter-spacing: 1px;
   line-height: 30px;
+  font-style: italic;
 }
 .home {
   position: absolute;
-  left: 30%;
+  left: 35%;
   right: 10%;
-  transform: translate(13%, 24%);
+  transform: translate(14%, 24%);
+  margin-top: 15px;
 }
 .img {
   width: 300px;
@@ -91,14 +98,16 @@ nav ul li a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #c1cfc0;
 }
-#about {
-  height: 55vh;
 
+/* About */
+#about {
+  height: 100%;
   padding: 2% 10% 10%;
 }
+
 .about h2 {
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 .row {
@@ -112,12 +121,20 @@ nav ul li a:hover {
 }
 .row .col p {
   text-align: justify;
+  font-size: 20px;
 }
+
+/* Project */
 .project {
   background-color: #e7e0c9;
 }
-.project h3,
-p {
+.project h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.project .grid-container p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-align: center;
   font-size: 20px;
 }
@@ -139,13 +156,20 @@ p {
   width: 100%;
   height: auto;
 }
+
+/* Contact */
+
 .contact {
-  text-align: center;
   padding: 2% 10% 10%;
   margin-bottom: 35px;
 }
 .contact h4 {
+  text-align: center;
   font-weight: bold;
+  font-size: 35px;
+}
+.contact p {
+  text-align: center;
 }
 .contact-desc {
   margin: 50px 50px;
@@ -189,6 +213,7 @@ footer {
 footer p {
   font-size: normal;
   color: #e7e0c9;
+  text-align: center;
 }
 
 .social-icons {
@@ -204,8 +229,9 @@ footer p {
   align-items: center;
   margin: 3px;
   border-radius: 50%;
+  background-color: #e7e0c9;
 }
 .social-icons i {
   font-size: 35px;
-  color: #e2e5ea;
+  color: #11324d;
 }
