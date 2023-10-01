@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile | Nisa Syifa Muzahidah</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <section id="home">
+      <div class="navbar">
+        <nav>
+          <a href="index.html" class="logo">Web Profile</a>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- home -->
+      <div class="home">
+        <p>Hello Everyone!</p>
+        <p>I'm Nisa Syifa Muzahidah</p>
+        <hr style="width: 200px" class="w3-opacity" />
+        <p>
+          I'm a college student at STMIK Mardira Indonesia <br />
+          majoring in Information of Techology
+        </p>
+      </div>
+      <img class="img" src="assets/profile.jpeg" alt="nisa" />
+    </section>
+
+    <!-- about -->
+    <section id="about">
+      <div class="about">
+        <h2>About me</h2>
+        <div class="row">
+          <div class="col">
+            <p>
+              Mahasiswa aktif di salah satu perguruan tinggi swasta Bandung dengan program studi Teknik Informatika. Memiliki ketertarikan bekerja di bidang <em>front-end developer</em>. Terbiasa menggunakan aplikasi text editor, seperti
+              Viasual Studio Code, Sublime Text, Netbeans IDE dan Arduino.
+            </p>
+          </div>
+          <div class="col">
+            <p>
+              Memiliki beberapa pengalaman projek, baik kelompok maupun individu, seperti pembuatan website menggunakan bahasa pemrograman PHP untuk project kelompok, sedangkan aplikasi kamus ekonomi Islam Arab-Indonesia menggunakan website
+              MIT APP Inventor untuk project individu.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project -->
+    <section id="project">
+      <div class="project">
+        <div class="grid-container">
+          <h3>My Project</h3>
+          <p>
+            Beberapa project yang pernah dikerjakan, baik secara individu maupun kelompok<br />
+            Klik gambarnya untuk melihat lebih detail
+          </p>
+          <br />
+          <div class="row">
+            <div class="col">
+              <a href="https://drive.google.com/file/d/1nDAJ-RLmGGiTeHNkNxR_pP4Scn4PRmj9/view?usp=drive_link"
+                ><img src="assets/img-porto1.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kamus Ekonomi Islam Arab-Indonesia"
+              /></a>
+            </div>
+            <div class="col">
+              <a href="https://drive.google.com/file/d/145k2HmtVdKr8Qv4XxjKQlHS_zikwT901/view?usp=drive_link"><img src="assets/img-porto2.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Website PPDB MA" /></a>
+            </div>
+            <div class="col">
+              <a href="https://drive.google.com/file/d/1WZHMJ5milM1LXLE2yqOe5qaTjjGPimMP/view?usp=drive_link"><img src="assets/img-porto3.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Chatbot" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="contact">
+        <div class="contact-desc">
+          <h4>Contact</h4>
+          <p><em>Let's get in touch. Send me a message, I love meeting new people! :) </em></p>
+        </div>
+        <form action="form.html">
+          <label for="frame">Nama Lengkap</label>
+          <input type="text" name="namaLengkap" id="fname" placeholder="Nama Lengkap" />
+          <label for="frame">Email</label>
+          <input type="email" name="email" id="email" placeholder="contoh123@gmail.com" />
+          <label for="frame">Pesan</label>
+          <input type="text" name="pesan" id="pesan" placeholder="Pesan" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+
+    <footer>
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up"></i>Kembali ke atas</a>
+      <p>
+        <em>Pergi keluar mencari cemilan, pulang bawa roti <br />Alangkah bahagianya kalau kita mutualan <br />Dengan aku yang baik hati</em>
+      </p>
+
+      <div class="social-icons">
+        <a href="https://www.facebook.com/nisa.ii.589"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/nisa-syifa-muzahidah-349791209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <a href="https://instagram.com/nisyifamzhdh?igshid=YTQwZjQ0NmI0OA=="><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://wa.me/629656103603"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+        <a href="https://pin.it/5QNPXfn"><i class="fa fa-pinterest w3-hover-opacity"></i></a>
+        <a href="https://github.com/nisyifa07"><i class="fa fa-github w3-hover-opacity"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
